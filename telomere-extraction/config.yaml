@@ -1,0 +1,29 @@
+SAMPLE_DIR: "/home/nanopore/sequencing-data"
+
+# T2T-CHM13V2 genome
+REFERENCE: "/home/nanopore/sequencing-analysis/reference-genomes/t2t-chm13v2/T2T-CHM13v2.0_new_chr_name.fna"
+HG38: "/home/nanopore/sequencing-analysis/reference-genomes/hg38/hg38.p14_genomic.fna"
+
+OUT_DIR : "/home/nanopore/analyzed-data"
+
+TELO_TAG_5: "AAAAAGACGTGTGCTCTTCCGATCT"
+TELO_TAG_3: "AGATCGGAAGAGCACACGTCTTTTT"
+
+TAG_TEL_3: "AGATCGGAAGAGCACACGTCCCCTAACCCTAACCCTAA"
+TAG_TEL_3_WITHOUT_TELOMERE: "AGATCGGAAGAGCACACGTCC"
+TEL_R_30: "CTAACCCTAACCCTAACCCTAACCCTAACC"
+
+TELOMERE: "TTAGGG"
+
+TELOMERE_START_FILE: "/home/nanopore/sequencing-analysis/automatisation/telomere-extraction/chromosome-starts-chm13v2.csv"
+
+# software built from source
+TIDEHUNTER: "/home/nanopore/sequencing-analysis/automatisation/telomere-extraction/TideHunter-v1.5.4/bin/TideHunter"
+
+# PORECHOP
+ADAPTER_FILE: "/home/nanopore/sequencing-analysis/automatisation/telomere-extraction/adapters.py"
+PORECHOP: "/home/nanopore/sequencing-analysis/automatisation/telomere-extraction/Porechop"
+
+# Parameters for calculating telomere length
+COVERAGE: 1
+

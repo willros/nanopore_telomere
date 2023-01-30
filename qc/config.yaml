@@ -1,0 +1,4 @@
+SAMPLE_DIR: "/home/nanopore/sequencing-data"
+# T2T-CHMV2 genome
+REFERENCE: "/home/nanopore/sequencing-analysis/reference-genomes/t2t-chm13v2/chm13v2.0.fa.gz"
+OUT_DIR : "/home/nanopore/analyzed-data"

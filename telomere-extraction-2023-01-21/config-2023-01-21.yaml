@@ -1,0 +1,15 @@
+# IO
+SAMPLE_DIR: "/home/nanopore/M622339_ONT_DATA/pod5"
+OUT_DIR : "/home/nanopore/M622339_ONT_DATA/analyzed-data"
+
+# T2T-CHM13V2 genome
+REFERENCE: "/home/nanopore/sequencing-analysis/reference-genomes/t2t-chm13v2/T2T-CHM13v2.0_new_chr_name.fna"
+
+# Telomere stuff
+TELOMERE: "TTAGGG"
+TELOMERE_START_FILE: "/home/nanopore/sequencing-analysis/automatisation/telomere-extraction/chromosome-starts-chm13v2.csv"
+
+# software built from source
+TIDEHUNTER: "/home/nanopore/sequencing-analysis/automatisation/telomere-extraction/TideHunter-v1.5.4/bin/TideHunter"
+PORECHOP: "/home/nanopore/sequencing-analysis/automatisation/telomere-extraction/Porechop"
+
